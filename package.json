@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":  ". ./config/env.dev.sh && node --inspect ./",
+    "prod": ". ./config/env.dev.sh && node --inspect ./",
+    "test": ". ./config/env.dev.sh && node --inspect ./"
   },
   "author": "",
   "license": "ISC",
