@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":  ". ./env.dev.sh && node --inspect ./",
+    "develop":  ". ./env.develop.sh && node --inspect ./",
     "master": ". ./env.master.sh && node --inspect ./",
     "test": ". ./env.test.sh && node --inspect ./"
   },
