@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":  ". ./config/env.dev.sh && node --inspect ./",
-    "prod": ". ./config/env.dev.sh && node --inspect ./",
-    "test": ". ./config/env.dev.sh && node --inspect ./"
+    "dev":  ". ./env.dev.sh && node --inspect ./",
+    "master": ". ./env.master.sh && node --inspect ./",
+    "test": ". ./env.test.sh && node --inspect ./"
   },
   "author": "",
   "license": "ISC",
