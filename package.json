@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop":  ". ./env.develop.sh && node ./",
+    "develop": ". ./env.develop.sh && node ./",
     "master": ". ./env.master.sh && node ./",
-    "test": ". ./env.test.sh && node ./"
+    "test": ". ./env.test.sh && jasmine"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jasmine": "^3.5.0",
+    "mocha": "^7.0.1"
   }
 }
