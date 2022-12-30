@@ -13,6 +13,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "jasmine": "^3.5.0",
-    "mocha": "^7.0.1"
+    "mocha": "^10.2.0"
   }
 }
